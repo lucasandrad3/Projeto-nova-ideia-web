@@ -1,0 +1,33 @@
+@font-face{
+	font-family: Bubblegum Sans;
+	src: url("../font/BubblegumSans-Regular.ttf");
+}
+body{
+	background-image: url('../lampada1.png');
+	
+}
+form#Criar{
+	margin: 10px, auto;
+
+}
+form#Criar input{
+	padding: 8px;
+	
+}
+form#Criar p{
+	font-weight: bold;
+	font-size: 20px;
+}
+p#bt input{
+	padding:13px;
+	width: 200px;
+	border-radius: 7px;
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: #606060;
+}
+p#bt input:hover{
+	
+	background-color: #757575;
+}

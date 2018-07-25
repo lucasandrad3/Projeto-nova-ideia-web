@@ -1,0 +1,109 @@
+@charset"utf-8";
+@font-face{
+	font-family: Bubblegum Sans;
+	src: url("../font/BubblegumSans-Regular.ttf");
+}
+
+body{
+	background-image: url('../lampada1.png');
+	overflow-x: hidden;
+}
+
+header{
+	border-bottom: 1px solid black;	
+}
+nav#menu li{
+	
+	position: relative;
+	display: inline-block;
+	background-color: #DDDDDD;
+	padding: 12px;
+	left:440px;
+
+	
+}
+figure#einsten img{
+	position: relative;
+	top: -60px;
+}
+div#interface{
+	background-color: white;
+	margin: auto auto auto auto;
+
+	position: relative;
+	box-shadow: 1px 1px 4px black;
+	width: 900px;
+
+	
+}
+footer{
+	position: relative;
+	border: 1px solid black;
+	font-family: 'Bubblegum Sans', cursive;
+	color: #606060;
+	font-size: 20pt;
+	list-style: none;
+	background-color: rgb(51, 51, 51);
+
+	
+
+
+}footer a{
+	color: #606060;
+}
+
+h1#titulo{
+	position: relative;
+	font-family: 'Bubblegum Sans', cursive;
+	color: #606060;
+	font-size: 20pt;
+	top: -300px;
+	left: 450px;
+}
+h2#subtitulo{
+	position: relative;
+	font-family: 'Bubblegum Sans', cursive;
+	color: #606060;
+	top: -300px;
+	left: 400px;
+}
+
+section li{
+	position: relative;
+	display: inline-block;
+	top:-150px;
+	left: 150px;
+	margin: 0px 10px 0px 10px;
+	background-color: #DDDDDD;
+	padding: 12px;
+	
+
+}
+section h1{
+	font-family: 'Bubblegum Sans', cursive;
+	color: #606060;
+}
+
+nav#menu li:hover{
+	transition: 2s;
+	background-color: #606060;
+
+}
+
+nav#menu a{
+	color: black;
+
+}
+
+section#ideia{
+	width: 200px;
+	display: inline-block;
+	box-shadow: 1px 1px 4px black;
+	margin: 7px;
+	position: relative;
+
+
+
+}section#ideia h1{
+	text-align: center;
+}

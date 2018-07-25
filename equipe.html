@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Nova Ideia</title>
+	<link rel="stylesheet" type="text/css" href="css/principal.css">
+	<script type="text/javascript">
+		function mudaFoto(foto){
+			document.getElementById('facebook').src = foto;
+		}
+	</script>
+
+</head>
+<body>
+	<div id="interface">
+	<header>
+	<nav id="menu">
+		<ul>
+			<li><a href="login.html" target="_blank"> Entrar</a></li>
+			<li><a href="Criar.html" target="_blank">Criar Conta</a></li>
+			<li><a href="equipe.html" target="_blank">Nossa equipe</a></li>
+			<li><a href="principal.html" target="_blank">Página principal</a></li>
+
+		</ul>
+	</nav>
+	<figure id="einsten">
+		<a href="principal.html"><img src="einsten-hair.png"></a>
+	</figure>
+	</header>
+	<h1 id="titulo">#compartilhe suas ideias</h1>
+	<p><h2 id="subtitulo">Forme Equipes e desenvolva seus projetos</h2></p>
+
+<section>
+	<h1>#Nossa Equipe</h1>
+	<img id="facebook" src="equipe/facebook.jpg">
+	<ul id="Alunos">
+		<li onmousemove="mudaFoto('equipe/Lucas.jpg')" onmouseout="mudaFoto('equipe/facebook.jpg')"><a target="_blank" href="https://www.facebook.com/lucas.andraderodrigues.5"># Lucas Andrade</a></li>
+		<li onmousemove="mudaFoto('equipe/Luan.jpg')" onmouseout="mudaFoto('equipe/facebook.jpg')"> <a target="_blank" href="https://www.facebook.com/luancantalic3"># Luan Cantalice</a></li>
+		<li onmousemove="mudaFoto('equipe/joew.jpg')" onmouseout="mudaFoto('equipe/facebook.jpg')"><a target="_blank" href="https://www.facebook.com/joewerton.moraes?ref=br_rs"> # Joewerton</a></li>
+	</ul>
+
+</section>
+
+<footer>
+	&copy  Copyright 2018 
+</footer>
+</div>
+</body>
+</html>
