@@ -94,16 +94,6 @@ nav#menu a{
 	color: black;
 
 }
-
-section#ideia{
-	width: 200px;
-	display: inline-block;
-	box-shadow: 1px 1px 4px black;
-	margin: 7px;
-	position: relative;
-
-
-
-}section#ideia h1{
-	text-align: center;
+section img{
+	margin-left: 10px;
 }
